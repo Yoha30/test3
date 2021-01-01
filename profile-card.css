@@ -1,0 +1,87 @@
+@font-face { 
+font-family: 'Kumbh Sans';
+src: url('KumbhSans-Regular.ttf')  format('truetype');
+}
+body{
+	background: hsl(185, 75%, 39%);
+	background-image: url('images/bg-pattern-top.svg'),url('images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat,no-repeat;
+  	background-attachment: fixed,fixed;
+  	background-position: top -400px left -200px,bottom -600px right -200px; 
+  	font-family: Kumbh Sans;
+}
+#main-card{
+	width: 23%;
+	margin: 10% auto;
+	background: white;
+	border-radius: 20px;
+}
+#cover{
+	width: 100%;
+	height: 150px;
+	background-image: url('images/bg-pattern-card.svg');
+	border-radius:20px 20px 0px 0px;
+	position: relative;
+}
+#cover img{
+	position: absolute;
+	bottom: -50px;
+	left: 37%;
+	border-radius: 50px;
+}
+#user-info{
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 50px;
+	border-bottom: 1px solid #c3c3c3;
+}
+#social-info{
+	padding-bottom: 10px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	width:30%;
+	text-align: center;
+}
+li .number{
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+li .label {
+	font-size: 14px;
+	color:#c3c3c3;
+	font-weight: bold;
+}
+
+#name{
+	font-weight: bold;
+	font-size: 18px;
+}
+#name small{
+	margin-left: 5px;
+	font-size: 20px;
+	color:#c3c3c3;
+}
+#city{
+	color:#c3c3c3;
+}
+@media only screen and (max-width: 600px){
+	body{
+	background: hsl(185, 75%, 39%);
+	background-image: url('images/bg-pattern-top.svg'),url('images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat,no-repeat;
+  	background-attachment: fixed,fixed;
+  	background-size: 500px 500px,500px 500px;
+  	background-position: top -200px left -300px,bottom -200px right -300px; 
+  	font-family: Kumbh Sans;
+}
+#main-card{
+	width: 90%;
+	margin: 40% auto;
+	background: white;
+	border-radius: 20px;
+}
+}

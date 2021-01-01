@@ -1,0 +1,104 @@
+@font-face { 
+font-family: 'Karla';
+src: url('Karla-Regular.ttf')  format('truetype');
+}
+body{
+	background: hsl(204, 43%, 93%);
+	font-family: "Karla";
+}
+#block{
+	background: white;
+	text-align: center;
+	font-size: 16px;
+	width:50% ;
+	margin-left: 25%;
+	margin-top: 100px;
+	border-radius:10px;
+	padding: 20px;
+	display: inline-block;
+}
+#main-text{
+	width: 30%;
+	color: hsl(179, 62%, 43%);
+}
+#second{
+		width: 62%;
+		color: hsl(71, 73%, 54%);
+
+}
+#third{
+	width:108%;
+	color: hsl(218, 22%, 67%);
+
+}
+#fourth{
+	width: 100%;
+	color: hsl(218, 22%, 67%);
+
+}
+#block2{
+	background:hsl(179, 62%, 43%);
+	display: inline-block;
+	margin-left: 25%;
+	width: 25%;
+	color:white;
+	padding-top:10px;
+	text-align: center;
+
+}
+#block3{
+	background:hsl(179, 52%, 43%);
+	display: inline-block;
+	margin-right:25%;
+	width: 25%;
+	float: right;
+	color:white;
+	padding-top:10px;
+
+
+
+}
+#big{
+	margin-bottom: 10px;
+	margin-right: 100px;
+	
+
+}
+#yellow{
+	background:hsl(71, 73%, 54%);
+	width: 70%;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 2%;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 25px;
+	border:0px;
+	margin-top:25px;
+	color:white;
+}
+#text2{
+	margin-top:15px;
+	margin-left: 30px;
+	}
+#text3{
+	margin-top:15px;
+	margin-left: 30px;
+	font-size: 12px;
+	margin-bottom:25px;
+	}
+.text4{
+	margin-top:1px;
+	margin-bottom:1px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+#text5{
+	margin-top:1px;
+	margin-bottom:20px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+#test{
+	margin-right: 35px;
+}

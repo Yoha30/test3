@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html>
+	<style>
+		@font-face { 
+font-family: 'Karla';
+src: url('Karla-Regular.ttf')  format('truetype');
+}
+		body{
+			background: hsl(204, 43%, 93%);
+			vertical-align: middle;
+			font-family: "Karla";
+
+		}
+		#body {
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			width: 60%;
+			margin: 0 auto;
+		}
+		#block{
+			background: white;
+			padding: 1em;
+			grid-column:1/3;
+			justify-content:center;
+		}
+		#main-text{
+			width: 62%;
+		color: hsl(71, 73%, 54%);
+		}
+		#second{
+		width: 62%;
+		color: hsl(71, 73%, 54%);
+
+		}
+		#third{
+		width:108%;
+		color: hsl(218, 22%, 67%);
+
+		}
+		#fourth{
+		width: 100%;
+		color: hsl(218, 22%, 67%);
+		}
+		#block2{
+			background: hsl(179, 55%, 43%);
+			padding: 1em;
+			color:white;
+
+		}
+		#block3{
+			background: hsl(179, 62%, 43%);
+			color:white;
+			padding: 1.5em;
+			font-size: 12px;
+		}
+		#text2{
+			font-size: 16px;
+		}
+		#small{
+			font-size: 12px;
+			opacity: 50%;
+		}
+		#yellow{
+		background:hsl(71, 73%, 54%);
+		width: 70%;
+		height: 40px;
+		border-radius: 5px;
+		border:0px;
+		color:white;
+		margin-top: 2em;
+
+	}
+	#main-text{
+		color: hsl(179, 62%, 43%);
+	}
+	footer{
+		grid-column:1/3;
+	}
+	</style>
+	<body>
+		<div id="body">
+<div id="block">
+  <p id="main-text">Join our community</p>
+
+  <p id="second">30-day, hassle-free money back guarantee</p>
+<div>
+  <p id="third">Gain access to our full library of tutorials along with expert code reviews. 
+   <p id="fourth">Perfect for any developers who are serious about honing their skills.</p></p></div>
+  </div>
+  <div  id="block2">
+  <div>
+  	<p id="test">Monthly Subscription</p>
+
+  <p id="big">&dollar;29<small id="small"> per month</small></p>
+
+  <small>Full access for less than &dollar;1 a day</small><br>
+
+  <button id="yellow">Sign Up</button>
+  </div>
+  </div>
+  <div id="block3">
+  <p id="text2">Why Us</p>
+
+  <small id="text3">Tutorials by industry experts
+  <p class="text4">Peer &amp; expert code review</p>
+  <p class="text4">Coding exercises</p>
+  <p class="text4"> Access to our GitHub repos</p>
+  <p class="text4"> Community forum</p>
+  <p class="text4">Flashcard decks</p>
+  <p id="text5">New videos every week</p></small>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p></div>
+</footer>
+  </div>
+	</body>
+
+</html>
